@@ -1,3 +1,3 @@
-cd aaa
-npm i
+cd aaa  
+npm i  
 gulp
