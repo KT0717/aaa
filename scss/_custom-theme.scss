@@ -37,15 +37,16 @@ $i: 1;
 }
 
 // img-*
-$imgWH: 4;
+$imgWH: 10;
 
-@while $imgWH <=72 {
-  .img-#{$imgWH} {
-    width: 0px+(1px * $imgWH) !important;
-    height: 0px+(1px * $imgWH) !important;
+@while $imgWH <=100 {
+  .w-#{$imgWH} {
+    width: 0%+(1% * $imgWH) !important;
+    // height: 0%+(10% * $imgWH) !important;
+    height:auto !important;
   }
 
-  $imgWH: $imgWH+1;
+  $imgWH: $imgWH+5;
 }
 
 // opc-*
